@@ -10,6 +10,11 @@ header {
 nav {
     text-align: right;
 }
+
+img{
+    height: 60px;
+    width: 60px;
+}
         
 a {
     display: inline-flex;
@@ -58,4 +63,3 @@ a::before{
         -webkit-transform: translateX(3px);
         transform: translateX(3px);
 }
-
