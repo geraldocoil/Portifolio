@@ -1,0 +1,20 @@
+.button {
+    display: inline-block;
+    background-color: #F25A70;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 1px black;
+    border-radius: 6px;
+    transition: transform 200ms cubic-bezier(.45,.97,.68,2.48);
+}
+
+.button:hover{
+    box-shadow:
+                4px 4px black,
+                4px 4px black,
+                5px 5px black;
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+}
