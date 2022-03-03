@@ -5,9 +5,12 @@
     padding-bottom: 18px;
     padding-left: 20px;
     padding-right: 20px;
-    box-shadow: 5px 5px 1px black;
-    border-radius: 6px;
+    box-shadow: 5px 5px 0px black;
     transition: transform 200ms cubic-bezier(.45,.97,.68,2.48);
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    
 }
 
 .button:hover{

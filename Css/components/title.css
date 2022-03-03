@@ -1,15 +1,7 @@
-h1 {
+.title {
     font-family: 'Press Start 2P',sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     color: #F25A70;
     text-shadow: 4px 4px 0px black;
-}
-
-h2{
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 30px;
-    text-shadow: 4px 4px 0px black;
-    color: white;
-    
 }
 
