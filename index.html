@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+    <title>Portfólio | Wesley Almeida</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,19 +12,22 @@
 
     <link rel = "stylesheet" href = "Css/reset.css">
     <link rel = "stylesheet" href = "Css/components/main-title.css">
-    <link rel = "stylesheet" href = "Css/components/box.css">
-    <link rel = "stylesheet" href = "Css/components/button.css">
-    <link rel = "stylesheet" href = "Css/components/action.css">
-    <link rel = "stylesheet" href = "Css/components/header.css">
-    <link rel = "stylesheet" href = "Css/components/logo.css">
+    <link rel = "stylesheet" href = "Css/components/main-box.css">
+    <link rel = "stylesheet" href = "Css/components/main-button.css">
+    <link rel = "stylesheet" href = "Css/components/main-action.css">
+    <link rel = "stylesheet" href = "Css/components/main-header.css">
+    <link rel = "stylesheet" href = "Css/components/main-logo.css">
     <link rel = "stylesheet" href = "Css/components/subtitle.css">
-    <link rel = "stylesheet" href = "Css/components/banner.css">
+    <link rel = "stylesheet" href = "Css/components/main-banner.css">
     <link rel = "stylesheet" href = "Css/components/section.css">
     <link rel = "stylesheet" href = "Css/components/skill-tec.css">
     <link rel = "stylesheet" href = "Css/components/progress-bar.css">
+    <link rel = "stylesheet" href = "Css/components/wrapper-skill.css">
+    <link rel = "stylesheet" href = "Css/components/project.css">
+    <link rel = "stylesheet" href = "Css/components/card-project.css">
 </head>
 
-<body>
+<body> 
     <header class = "header">
         
         <img src = "assets/img/logo2.png">
@@ -53,15 +56,96 @@
         <section class = "section">
             <h2 class = "main-title -second">Skills</h2>
 
-            <article class = "skill-tec"> 
-                <img class = "icon" src = "/assets/img/icon html.png" alt = "Logo do HTML5 em pixel art">
-                <div class = "rigth">
-                    <h3 class = "title">HTML</h3>
-                    <progress class = "progress-bar" max = "100" value = "35">
-                        35%
-                    </progress>
-                </div>
-            </article> 
+            <div class="wrapper-skill">
+                <article class="skill-tec">
+                    <img class="icon" src="assets/img/icon html.png" alt="HTML5">
+    
+                    <div class="wrapper">
+                        <h2 class="title">HTML</h2>
+                        <progress class="progress-bar" max="100" value="75"></progress>
+                    </div>
+                </article>
+    
+                <article class="skill-tec">
+                    <img class="icon" src="assets/img/icon css.png" alt="CSS3">
+    
+                    <div class="wrapper">
+                        <h2 class="title">CSS</h2>
+                        <progress class="progress-bar" max="100" value="75"></progress>
+                    </div>
+                </article>
+    
+                <article class="skill-tec">
+                    <img class="icon" src="assets/img/icon js.png" alt="JavaScript">
+    
+                    <div class="wrapper">
+                        <h2 class="title">JavaScript</h2>
+                        <progress class="progress-bar" max="100" value="50"></progress>
+                    </div>
+                </article>
+    
+                <article class="skill-tec">
+                    <img class="icon" src="assets/img/icon react.png" alt="React">
+    
+                    <div class="wrapper">
+                        <h2 class="title">React</h2>
+                        <progress class="progress-bar" max="100" value="20"></progress>
+                    </div>
+                </article>
+    
+                <article class="skill-tec">
+                    <img class="icon" src="assets/img/icon nodejs.png" alt="NodeJS">
+        
+                    <div class="wrapper">
+                          <h2 class="title">NodeJS</h2>
+                        <progress class="progress-bar" max="100" value="10"></progress>
+                    </div>
+                </article>
+    
+                <article class="skill-tec">
+                    <img class="icon" src="assets/img/icon tdd.png" alt="TDD">
+            
+                    <div class="wrapper">
+                        <h2 class="title">TDD</h2>
+                        <progress class="progress-bar" max="100" value="10"></progress>
+                    </div>
+                </article>
+                
+                <article class="skill-tec">
+                    <img class="icon" src="assets/img/icon restapi.png" alt="Rest API">
+            
+                    <div class="wrapper">
+                        <h2 class="title">Rest API</h2>
+                        <progress class="progress-bar" max="100" value="10"></progress>
+                    </div>
+                </article>
+    
+                <article class="skill-tec">
+                    <img class="icon" src="assets/img/icon ux.png" alt="UX">
+            
+                    <div class="wrapper">
+                        <h2 class="title">UX</h2>
+                        <progress class="progress-bar" max="100" value="40"></progress>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class ="section">
+            <div class="wrapper-project">
+                <a class="logo-project" href="https://www.firedlabs.com" target="_blank">
+                    <img class="icon" src="/assets/img/logo-firedlabs.png" alt="Logo FiredLabs">
+                </a>
+    
+                <a class="logo-project" href="https://www.collabcode.training" target="_blank">
+                    <img class="icon" src="/assets/img/logo-collabcode.png" alt="Logo CollabCode">
+                </a>
+    
+                <a class="logo-project" href="https://wesleyalmeida01.github.io/Portifolio/index.html">
+                    <img class="icon" src="/assets/img/portfolio.png" alt= "Avatar Portfólio">
+                </a>
+            </div>
+        </section>
         </section>
 </body> 
 </html>
