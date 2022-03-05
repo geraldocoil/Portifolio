@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Fira Code", serif;
+}
+
+progress {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
