@@ -7,5 +7,9 @@
     margin-right: 30px;
     margin-left: 10px;
     padding: 0 5px;
-    transition: background-color 100ms linear;
+    transition: 200ms linear;
+}
+
+.menu-action:hover{
+    transform: scale(1.08);
 }
