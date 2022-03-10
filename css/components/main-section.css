@@ -1,6 +1,7 @@
 .main-section {
     box-sizing: border-box;
-    border-bottom: 10px solid #7209B7;
+    border-bottom: 10px solid #7C5E99
+    ;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 100px;
@@ -21,6 +22,12 @@
 
 .main-section.-third {
     background-color: #000;
+}
+
+.main-section.-four{
+    background-color: #5090BE;
+    border-color: #7C5E99
+    ;
 }
 
 .main-section.-noborder {
